@@ -24,5 +24,5 @@ if (
   var g = window.jQuery || window.Zepto || window;
 
   // require Velocity if it doesn't already exist
-  module.exports = g.Velocity ? g.Velocity : require('velocity-animate');
+  module.exports = g.Velocity;
 }
